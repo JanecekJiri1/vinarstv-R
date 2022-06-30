@@ -1,0 +1,50 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  /* background-color: rgba(255, 255, 255, 0.121); */
+}
+
+.leftSize {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+.leftSize a {
+  display: flex;
+  align-items: center;
+}
+
+.logoRV {
+  width: 45px;
+  height: 45px;
+  border-radius: 360%;
+}
+a h3 {
+  margin-left: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  font-size: 24px;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+}
+
+li {
+  margin: 20px 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+ul a:hover {
+  padding-bottom: 2px;
+  border-bottom: 1px solid white;
+}

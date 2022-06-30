@@ -1,0 +1,24 @@
+.about {
+  background-image: url("../assets/aboutImg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+}
+
+.aboutContainer {
+  background-color: rgba(0, 0, 0, 0.25);
+  position: relative;
+  top: 30%;
+  padding: 25px;
+}
+
+.aboutName {
+  margin: 25px auto;
+}
+
+.aboutDescription {
+  max-width: 80%;
+  margin: 10px auto;
+}
