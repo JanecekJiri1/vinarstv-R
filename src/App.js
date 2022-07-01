@@ -8,8 +8,9 @@ import Wine from "./components/Wine";
 import About from "./components/About";
 import Contact from "./components/Contact";
 
+import "./fonts/Fonts.css";
+
 function App() {
-  const [show, setShow] = useState(true);
   return (
     <>
       <BrowserRouter>

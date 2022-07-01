@@ -14,6 +14,9 @@ const Main = () => {
             Vinařství <br />
             Richard Vajčner
           </h1>
+          <span className="logo smScrean">
+            <img className="rvLogo" src={LogoRV} alt="" />
+          </span>
           <h2>Vše začíná Vášní</h2>
         </span>
       </div>

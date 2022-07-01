@@ -1,5 +1,5 @@
 .mainContext {
-  max-width: 100vw;
+  max-width: 1960px;
   height: 100vh;
   background: rgba(0, 0, 0, 0.1) url("../assets/banner.jpg");
   background-blend-mode: darken;
@@ -17,16 +17,28 @@ main ul {
 }
 
 .nameAndLogo {
+  font-family: Nautigal, serif;
+  font-size: 38px;
   display: flex;
   max-width: 550px;
-
   position: relative;
-  top: 30%;
+  top: 20%;
   left: 10%;
+  padding-top: 100px;
 }
 
 .rvLogo {
   width: 150px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smScrean {
+  display: none;
 }
 
 .Name {
@@ -36,4 +48,49 @@ main ul {
   align-items: start;
   text-align: start;
   margin-left: 25px;
+}
+
+@media only screen and (max-width: 575px) {
+  .mainContext {
+    background: rgba(0, 0, 0, 0.3) url("../assets/banner.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .nameAndLogo {
+    font-size: 30px;
+    max-width: 400px;
+
+    margin-right: 5px;
+  }
+  .Name {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .nameAndLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 30%;
+    left: 0;
+  }
+  .Name {
+    text-align: start;
+    margin: 15px 0;
+  }
+  .Name h2 {
+    margin: 0 auto;
+  }
+  .logo {
+    display: none;
+  }
+
+  .smScrean {
+    display: inline;
+    margin: 15px auto;
+  }
 }
