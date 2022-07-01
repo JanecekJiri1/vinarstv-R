@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React, { useState } from "react";
 
-import Navigation from "./components/Navigation";
+import Navigation from "./components/navBar/Navigation";
 import Main from "./components/Main";
 import Wine from "./components/Wine";
 import About from "./components/About";
