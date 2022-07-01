@@ -1,4 +1,4 @@
-export default [
+const redWine = [
   {
     name: "Modrý Portugal",
     description:
@@ -11,8 +11,25 @@ export default [
     price: 100,
   },
   {
-    name: "Savignon",
+    name: "Rulanské modré",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident atque expedita deserunt!",
+    price: 100,
+  },
+  {
+    name: "Pomino",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident atque expedita deserunt!",
+    price: 100,
+  },
+  {
+    name: "Pinot Noir",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident atque expedita deserunt!",
+    price: 100,
+  },
+  {
+    name: "Miguel Merino Crianza",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident atque expedita deserunt!",
     price: 100,
   },
 ];
+
+export default redWine;

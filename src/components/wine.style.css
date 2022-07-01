@@ -11,8 +11,8 @@
 
 .wineContainer {
   background-color: white;
-  max-width: 50%;
-  margin: 0 auto;
+  max-width: 960px;
+  margin: 0 10px;
   position: relative;
   top: 10%;
   border-radius: 25px;
@@ -25,7 +25,7 @@
 }
 
 .wineNameHeader {
-  margin: 25px 35px 25px 35px;
+  margin: 25px 35px;
   border-bottom: 1px solid black;
   text-align: start;
   font-size: 28px;
@@ -40,7 +40,8 @@
 }
 
 .wineDescription {
-  max-width: 90%;
-  margin: 0 auto 5px;
+  /* max-width: 90%; */
+  text-align: start;
+  margin: 0 35px 5px;
   padding: 0 0 10px;
 }

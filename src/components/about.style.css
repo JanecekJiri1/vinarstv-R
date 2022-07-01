@@ -8,7 +8,7 @@
 }
 
 .aboutContainer {
-  background-color: rgba(0, 0, 0, 0.25);
+  /* background-color: rgba(0, 0, 0, 0.25); */
   position: relative;
   top: 30%;
   padding: 25px;
@@ -19,6 +19,7 @@
 }
 
 .aboutDescription {
-  max-width: 80%;
+  max-width: 780px;
   margin: 10px auto;
+  line-height: 125%;
 }
