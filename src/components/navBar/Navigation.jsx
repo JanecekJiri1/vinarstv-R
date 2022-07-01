@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 import NavigationNormal from "./NavigationNormal";
@@ -9,12 +9,12 @@ import logo from "../../assets/logoRV.png";
 function Navigation(props) {
   return (
     <nav className="navigation">
-      <div className="leftSize">
-        <Link to="/">
-          <img className="logoRV" src={logo} alt="" />
-          <h3>Richard</h3>
-        </Link>
-      </div>
+      {/* <div className="logoAndName"> */}
+      <Link className="logoAndName" to="/">
+        <img className="logoRV" src={logo} alt="Logo vinařství Vajčnér" />
+        <h3>Richard</h3>
+      </Link>
+      {/* </div> */}
       <NavigationNormal />
       <NavigationMobile />
     </nav>

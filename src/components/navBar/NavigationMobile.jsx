@@ -12,7 +12,7 @@ function NavigationMobile(props) {
 
   return (
     <nav className="mobileNavigation">
-      {open ? <IoIosClose className="burgerIcon" onClick={handleClick} /> : <FiMenu className="burgerIcon" onClick={handleClick} />}
+      {open ? <IoIosClose className="menuIcon" onClick={handleClick} /> : <FiMenu className="menuIcon" onClick={handleClick} />}
       {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu} />}
     </nav>
   );
