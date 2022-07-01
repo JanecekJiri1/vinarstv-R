@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navigation.style.css";
 import logo from "../assets/logoRV.png";
 
 import { Link } from "react-router-dom";
+import { FiMenu } from "react-icons/fi";
+import { IoIosClose } from "react-icons/io";
 
 function Navigation(props) {
+  const [myNav, setMyNav] = useState(false);
+  const handleClick = () => setMyNav(!myNav);
+
+  const handleClose = () => setMyNav(!myNav);
   return (
     <>
       <nav className="navigation">

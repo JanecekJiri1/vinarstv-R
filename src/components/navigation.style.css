@@ -28,6 +28,15 @@ a h3 {
   font-weight: normal;
 }
 
+.menu {
+  color: white;
+  font-size: 35px;
+  margin-right: 15px;
+}
+
+.liMenu {
+  display: none;
+}
 nav ul {
   display: flex;
   justify-content: end;
@@ -74,13 +83,21 @@ ul a:hover {
   .leftSize {
     margin-left: 10px;
   }
-}
-@media only screen and (max-width: 375px) {
-  .leftSize {
-    display: none;
-  }
-
   li {
     margin: 20px 10px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  li {
+    margin: 20px 10px;
+    display: none;
+  }
+  .liMenu {
+    display: block;
+  }
+
+  a h3 {
+    display: inline;
   }
 }
