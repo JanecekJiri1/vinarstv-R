@@ -4,6 +4,8 @@ import { ImLocation2 } from "react-icons/im";
 
 import "./contact.style.css";
 
+// Contact page
+
 function Contact(props) {
   return (
     <div className="contact">
@@ -23,11 +25,11 @@ function Contact(props) {
           </span>
           <span className="box">
             <FaFacebookF className="facebook icon" />
-            <p>Vinarstvi straznice</p>
+            <p>Vinarstvi Straznice</p>
           </span>
           <span className="box">
             <ImLocation2 className="address icon" />
-            <p>Adresa Strážnice U zkušebny 123</p>
+            <p> Strážnice U zkušebny 123</p>
           </span>
         </div>
       </div>
