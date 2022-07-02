@@ -23,3 +23,9 @@
   margin: 10px auto;
   line-height: 125%;
 }
+
+@media only screen and (max-height: 400px) {
+  .aboutDescription {
+    height: 145px;
+  }
+}
