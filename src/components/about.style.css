@@ -4,13 +4,13 @@
   background-size: cover;
   background-attachment: fixed;
   height: auto !important;
-  min-height: 100vh;
+  min-height: 110vh;
   color: white;
 }
 
 .aboutContainer {
   position: relative;
-  top: 100px;
+  top: 60px;
   padding: 25px;
 }
 
