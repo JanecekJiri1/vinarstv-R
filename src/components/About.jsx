@@ -6,7 +6,7 @@ function About(props) {
   return (
     <div className="about">
       <div className="aboutContainer">
-        <h2 className="aboutName">Náš příběh</h2>
+        <h2 className="aboutTitle">Náš příběh</h2>
         <p className="aboutDescription">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus cumque ducimus nostrum dolore eligendi consectetur et repudiandae
           numquam voluptates illum eius, aliquid ipsam iusto sed animi consequuntur ipsum aspernatur amet! Lorem ipsum dolor sit amet consectetur

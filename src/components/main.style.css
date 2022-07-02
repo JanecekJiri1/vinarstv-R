@@ -3,7 +3,6 @@
 .mainContext {
   max-width: 1960px;
   height: auto;
-
   background: rgba(0, 0, 0, 0.1) url("../assets/banner.jpg");
   background-blend-mode: darken;
   background-repeat: no-repeat;
@@ -16,7 +15,6 @@
   font-family: Nautigal, serif;
   font-size: 38px;
   display: flex;
-
   height: auto !important;
   min-height: 100vh;
   padding: 100px 150px;
