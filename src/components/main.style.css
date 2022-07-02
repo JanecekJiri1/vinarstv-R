@@ -1,6 +1,9 @@
+/* View of the page main */
+
 .mainContext {
   max-width: 1960px;
-  height: 100vh;
+  height: auto;
+
   background: rgba(0, 0, 0, 0.1) url("../assets/banner.jpg");
   background-blend-mode: darken;
   background-repeat: no-repeat;
@@ -8,27 +11,18 @@
   background-attachment: fixed;
 }
 
-main ul {
-  display: flex;
-  justify-content: start;
-
-  list-style: none;
-  padding: 3% 0 0 5%;
-}
-
-.nameAndLogo {
+/* Intoduce text name and logo */
+.nameAndLogoMain {
   font-family: Nautigal, serif;
   font-size: 38px;
   display: flex;
-  max-width: 550px;
-  position: relative;
-  top: 20%;
-  left: 10%;
-  padding-top: 100px;
+  height: 100vh;
+  padding: 100px 150px;
 }
 
 .rvLogo {
   width: 150px;
+  margin-top: 150px;
 }
 
 .logo {
@@ -36,61 +30,58 @@ main ul {
   justify-content: center;
   align-items: center;
 }
-
-.smScrean {
-  display: none;
-}
-
-.Name {
+.nameAndNote {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   text-align: start;
   margin-left: 25px;
+  margin-top: 150px;
+}
+.vinarstvi {
+  margin-left: 5px;
+}
+.RVNAME {
+  margin-left: -15px;
 }
 
-@media only screen and (max-width: 575px) {
-  .mainContext {
-    background: rgba(0, 0, 0, 0.3) url("../assets/banner.jpg");
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
+/* Responsivity */
 
-  .nameAndLogo {
-    font-size: 30px;
-    max-width: 400px;
-
-    margin-right: 5px;
+@media only screen and (max-width: 820px) {
+  .nameAndLogoMain {
+    padding: 10px 50px;
   }
-  .Name {
-    margin-left: 15px;
+  .rvLogo {
+    margin-top: 50px;
+  }
+  .nameAndNote {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .nameAndLogoMain {
+    padding: 10px 20px;
   }
 }
 
-@media only screen and (max-width: 375px) {
-  .nameAndLogo {
+@media only screen and (max-width: 450px) {
+  .nameAndLogoMain {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 30%;
-    left: 0;
+    justify-content: center;
   }
-  .Name {
-    text-align: start;
-    margin: 15px 0;
-  }
-  .Name h2 {
-    margin: 0 auto;
-  }
-  .logo {
+  .normalLogo {
     display: none;
   }
-
-  .smScrean {
-    display: inline;
-    margin: 15px auto;
+}
+@media only screen and (max-width: 450px) {
+  .nameAndLogoMain {
+    display: flex;
+    justify-content: center;
+  }
+  @media only screen and (max-width: 300px) {
+    .nameAndLogoMain {
+      font-size: 38px;
+    }
   }
 }

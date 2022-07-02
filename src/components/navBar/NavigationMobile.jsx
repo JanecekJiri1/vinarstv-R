@@ -4,6 +4,8 @@ import NavLinks from "./NavLinks";
 import { FiMenu } from "react-icons/fi";
 import { IoIosClose } from "react-icons/io";
 
+// Mobile Navigation with scrilong menu
+
 function NavigationMobile(props) {
   const [open, setOpen] = useState(false);
   const handleClick = () => setOpen(!open);

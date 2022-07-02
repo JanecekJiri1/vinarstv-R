@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { Link } from "react-router-dom";
+
+// Links use for Normal and Mobile Navigation
 
 function NavLinks(props) {
   return (

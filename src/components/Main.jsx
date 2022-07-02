@@ -2,21 +2,20 @@ import React from "react";
 import "./main.style.css";
 import LogoRV from "../assets/logoRV.png";
 
+// Default introduce page
+
 const Main = () => {
   return (
     <main className="mainContext">
-      <div className="nameAndLogo">
+      <div className="nameAndLogoMain">
         <span className="logo">
-          <img className="rvLogo" src={LogoRV} alt="" />
+          <img className="rvLogo normalLogo" src={LogoRV} alt="Velké logo vinařství Richard Vajčner " />
         </span>
-        <span className="Name">
+        <span className="nameAndNote">
           <h1>
-            Vinařství <br />
-            Richard Vajčner
+            <span className="vinarstvi"> Vinařství</span> <br />
+            <span className="RVNAME"> Richard Vajčner</span>
           </h1>
-          <span className="logo smScrean">
-            <img className="rvLogo" src={LogoRV} alt="" />
-          </span>
           <h2>Vše začíná Vášní</h2>
         </span>
       </div>

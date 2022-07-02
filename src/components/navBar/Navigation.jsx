@@ -6,15 +6,15 @@ import NavigationMobile from "./NavigationMobile";
 import "./navigation.style.css";
 import logo from "../../assets/logoRV.png";
 
+// Main navigation page import to App.js
 function Navigation(props) {
   return (
     <nav className="navigation">
-      {/* <div className="logoAndName"> */}
-      <Link className="logoAndName" to="/">
+      <Link className="logoAndNameNav" to="/">
         <img className="logoRV" src={logo} alt="Logo vinařství Vajčnér" />
         <h3>Richard</h3>
       </Link>
-      {/* </div> */}
+
       <NavigationNormal />
       <NavigationMobile />
     </nav>
@@ -22,35 +22,3 @@ function Navigation(props) {
 }
 
 export default Navigation;
-
-// import React, { useState } from "react";
-// import "./navigation.style.css";
-// import logo from "../../assets/logoRV.png";
-
-// import NavLinks from "./NavLinks";
-
-// import { Link } from "react-router-dom";
-// import { FiMenu } from "react-icons/fi";
-// import { IoIosClose } from "react-icons/io";
-
-// function Navigation(props) {
-//   const [myNav, setMyNav] = useState(false);
-//   const handleClick = () => setMyNav(!myNav);
-
-//   const handleClose = () => setMyNav(!myNav);
-//   return (
-//     <>
-//       <nav className="navigation">
-//         <div className="leftSize">
-//           <Link to="/">
-//             <img className="logoRV" src={logo} alt="" />
-//             <h3>Richard</h3>
-//           </Link>
-//         </div>
-//         <NavLinks />
-//       </nav>
-//     </>
-//   );
-// }
-
-// export default Navigation;
