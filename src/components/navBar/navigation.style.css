@@ -21,7 +21,8 @@
   margin-block: 11.5px;
   border-radius: 360%;
   background-color: black;
-  font-size: 28px;
+  font-size: 24px;
+  font-weight: normal;
   display: flex;
   justify-content: center;
   align-items: center;
