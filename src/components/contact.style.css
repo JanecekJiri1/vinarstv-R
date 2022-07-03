@@ -42,6 +42,7 @@
 
 @media only screen and (max-height: 400px) {
   .contacts {
+    padding: 110px 10px 25px;
     margin-top: 75px;
   }
 }

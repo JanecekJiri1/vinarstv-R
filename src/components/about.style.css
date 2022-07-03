@@ -6,11 +6,13 @@
   height: auto !important;
   min-height: 110vh;
   color: white;
+
+  padding: 80px 10px 25px;
 }
 
 .aboutContainer {
   position: relative;
-  top: 60px;
+  top: 75px;
   padding: 25px;
 }
 
@@ -26,6 +28,7 @@
 
 @media only screen and (max-height: 400px) {
   .aboutDescription {
+    padding: 10px 10px 35px;
     height: 145px;
   }
 }

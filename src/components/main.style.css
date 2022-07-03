@@ -21,8 +21,15 @@
 }
 
 .rvLogo {
-  width: 150px;
-  margin-top: 150px;
+  color: white;
+  background-color: black;
+  font-size: 144px;
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 10px;
+  border-radius: 35px;
+
+  margin-top: 125px;
 }
 
 .logo {

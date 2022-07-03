@@ -1,6 +1,5 @@
 import React from "react";
 import "./main.style.css";
-import LogoRV from "../assets/logoRV.png";
 
 // Default introduce page
 
@@ -9,7 +8,9 @@ const Main = () => {
     <main className="mainContext">
       <div className="nameAndLogoMain">
         <span className="logo">
-          <img className="rvLogo normalLogo" src={LogoRV} alt="Velké logo vinařství Richard Vajčner " />
+          {/* temporary logo, waiting for the original to be sent */}
+          {/* <img className="rvLogo normalLogo" src="" alt="Velké logo vinařství Richard Vajčner " /> */}
+          <h2 className="rvLogo normalLogo">RV</h2>
         </span>
         <span className="nameAndNote">
           <h1>
