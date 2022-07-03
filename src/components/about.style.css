@@ -4,10 +4,10 @@
   background-size: cover;
   background-attachment: fixed;
   height: auto !important;
-  min-height: 110vh;
+  min-height: 100vh;
   color: white;
 
-  padding: 50px 10px 45px;
+  padding: 95px 10px 45px;
 }
 
 .aboutContainer {
@@ -27,6 +27,9 @@
 }
 
 @media only screen and (max-height: 400px) {
+  .about {
+    padding: 50px 10px 45px;
+  }
   .aboutDescription {
     padding: 10px 10px 35px;
   }
