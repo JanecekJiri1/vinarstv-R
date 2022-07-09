@@ -10,8 +10,6 @@ function Navigation(props) {
   return (
     <nav className="navigation">
       <Link className="logoAndNameNav" to="/">
-        {/* temporary logo, waiting for the original to be sent */}
-        {/* <img className="logoRV" src' alt="Logo vinařství Vajčnér" /> */}
         <h2 className="logoRV">RV</h2>
         <h3>Richard</h3>
       </Link>

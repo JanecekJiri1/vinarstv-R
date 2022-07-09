@@ -1,7 +1,6 @@
 /* View of the page main */
 
 .mainContext {
-  max-width: 1960px;
   height: auto;
   background: rgba(0, 0, 0, 0.1) url("../assets/banner.jpg");
   background-blend-mode: darken;
