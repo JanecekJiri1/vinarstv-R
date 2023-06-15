@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 15px;
 
   position: absolute;
 }
@@ -46,7 +45,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 li {
   margin: 20px 50px;
@@ -84,8 +83,6 @@ ul a:hover {
   border-bottom: 1px solid rgb(72, 69, 69);
   /* width: 100%; */
 }
-
-
 
 /* Responsivity */
 

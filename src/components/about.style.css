@@ -1,7 +1,5 @@
 .about {
-  background:rgba(0,0,0,0.325) url("../assets/about.jpg");
-
-   background-blend-mode: darken;
+  background-image: url("../assets/aboutImg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -9,21 +7,13 @@
   min-height: 100vh;
   color: white;
 
-  padding: 35px 10px 10px;
-  display: flex;
-  flex-direction: column;
-
-  justify-content: space-between;
-  font-size: 18px;
-  font-weight: 250;
-  
+  padding: 95px 10px 45px;
 }
 
 .aboutContainer {
   position: relative;
   top: 25px;
   padding: 25px;
-  /* background-color: rgba(0, 0, 0, 0.175); */
 }
 
 .aboutTitle {
@@ -34,95 +24,7 @@
   max-width: 780px;
   margin: 10px auto;
   line-height: 125%;
-  text-align: justify;
-  
 }
-
-.priceContact{
-  margin: 25px auto;
-  display: flex;
-  justify-content: start;
-  max-width: 780px;
-  flex-wrap: wrap;
-
-  
-}
-
-.contact {
-  width: 100%;
-  flex: 1;
-text-align: right ;
-/* line-height: 25px; */
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-
-}
-.contact h2{
-  text-decoration: underline;
-  padding-bottom: 5px;
-}
-.price {
-  flex:1;
-  width: 100%;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
-}
-
-.price h2 {
-  text-decoration: underline;
-  padding-bottom: 5px;
-}
-
-.swiperStyle {
-  position: relative;
-  bottom: 100%;
-}
-
-.sectionTwo {
-  background-color: rgba(255, 255, 255, 0.507);
-  color: black;
-
-  
-}
-
-.referenceLinkP {
-  color: blue;
-}
-
-.swiper {
-  height: 165px;
-
-
-}
-
-
-.referenceLinkP:hover {
-  text-decoration: underline;
-}
-
-.carouselText h2 {
-  margin: 18px auto 10px;
-}
-.carouselText p {
-  margin: 12px 0;
-}
-
-.sectionTwo {
-  background-color: rgba(255, 255, 255, 0.5);
-  text-align: center;}
-
-#root {
-  --swiper-theme-color: rgba(0, 0, 0, 0.9);
-  --swiper-pagination-bullet-size: 14px;
-}
-
-
-/* aboutDescription */
-
 
 @media only screen and (max-height: 400px) {
   .about {

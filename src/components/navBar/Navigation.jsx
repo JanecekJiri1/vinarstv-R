@@ -10,13 +10,12 @@ function Navigation(props) {
   return (
     <nav className="navigation">
       <Link className="logoAndNameNav" to="/">
-        {/* <h2 className="logoRV">CT</h2> */}
-        <h3>Copywritin Tomečková</h3>
+        <h2 className="logoRV">RV</h2>
+        <h3>Richard</h3>
       </Link>
-     
-<p></p>
-      {/* <NavigationNormal /> */}
-      {/* <NavigationMobile /> */}
+
+      <NavigationNormal />
+      <NavigationMobile />
     </nav>
   );
 }

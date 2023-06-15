@@ -4,9 +4,9 @@ import React, { useState } from "react";
 
 import Navigation from "./components/navBar/Navigation";
 import Main from "./components/Main";
-// import Wine from "./components/Wine";
+import Wine from "./components/Wine";
 import About from "./components/About";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 
 import "./fonts/Fonts.css";
 
@@ -19,9 +19,9 @@ function App() {
             <Navigation />
             <Routes>
               <Route path="/" element={<Main />} />
-         
+              <Route path="/Wine" element={<Wine />} />
               <Route path="/About" element={<About />} />
-           
+              <Route path="/Contact" element={<Contact />} />
             </Routes>
           </div>
         </div>
