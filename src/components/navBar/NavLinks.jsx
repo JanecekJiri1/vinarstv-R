@@ -9,13 +9,13 @@ function NavLinks(props) {
     <>
       <ul onClick={() => props.isMobile && props.closeMobileMenu()}>
         <li>
-          <Link to="/Wine"> Naše Vína </Link>
+          <Link to="/Wine"> Chci vědět víc </Link>
         </li>
         <li>
-          <Link to="/About"> O Nás </Link>
+          {/* <Link to="/About"> O Nás </Link> */}
         </li>
         <li>
-          <Link to="/Contact"> Kontakt </Link>
+          {/* <Link to="/Contact"> Kontakt </Link> */}
         </li>
       </ul>
     </>

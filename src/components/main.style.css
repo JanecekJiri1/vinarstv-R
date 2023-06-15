@@ -7,6 +7,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  height: auto;
+  min-height: 100vh;
+  background: url("../assets/foto.png");
+
+  background-size: min(30%, 100% );
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 350px;
 }
 
 /* Intoduce text name and logo */
@@ -28,7 +41,7 @@
   padding: 10px;
   border-radius: 35px;
 
-  margin-top: 125px;
+  margin-top: 100px;
 }
 
 .logo {
@@ -42,8 +55,8 @@
   justify-content: center;
   align-items: start;
   text-align: start;
-  margin-left: 25px;
-  margin-top: 150px;
+  margin-left: 5vw;
+  margin-top: -10px;
   padding-bottom: 35px;
 }
 .vinarstvi {
@@ -52,6 +65,27 @@
 .RVNAME {
   margin-left: -15px;
 }
+
+
+ ul {
+  font-family: sans-serif;
+  list-style-type: none;
+  text-align: start;
+  padding: 0;
+  font-size: 24px;
+}
+
+.contactMe {
+  position: absolute;
+  left: 50%;
+  top: 35px;
+  font-weight: bold;
+    
+  /* 
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
 
 /* Responsivity */
 
